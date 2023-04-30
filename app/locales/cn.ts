@@ -24,7 +24,7 @@ const cn = {
     Typing: "正在输入…",
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} 发送`;
-      console.log(inputHints);
+      console.log("-----------",inputHints);
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
@@ -88,7 +88,7 @@ const cn = {
     },
 
     Update: {
-      Version: (x: string) => `当前版本：${x}`,
+      Version: (x: string) => `当前版本：188`,
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
