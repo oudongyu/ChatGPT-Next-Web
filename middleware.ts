@@ -46,7 +46,7 @@ export function middleware(req: NextRequest) {
   // inject api key
   if (!token) {
     const apiKey = serverConfig.apiKey;
-    console.log(apiKey);
+    console.log("检测到apikey:"+apiKey);
     if (apiKey) {
       console.log("[Auth] set system token");
       req.headers.set("token", apiKey);
