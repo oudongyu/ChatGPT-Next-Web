@@ -1,0 +1,6 @@
+修改了constant.ts文件，将别人的github网址修改为了自己的csdn链接：https://blog.csdn.net/weixin_38620636/article/details/130445872?spm=1001.2014.3001.5501
+
+修改cn.ts文件，将余额设置成假的，将检测更新设置成假的,增加console.log(inputHints);查看别人搜索的什么内容
+
+修改D:\Users\Administrator\Documents\GitHub\ChatGPT-Next-Web\middleware.ts文件，将日志中输出apikey
+

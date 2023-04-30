@@ -24,6 +24,7 @@ const cn = {
     Typing: "正在输入…",
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} 发送`;
+      console.log(inputHints);
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
@@ -91,7 +92,7 @@ const cn = {
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
-      FoundUpdate: (x: string) => `发现新版本：${x}`,
+      FoundUpdate: (x: string) => `发现新版本：188`,
       GoToUpdate: "前往更新",
     },
     SendKey: "发送键",
@@ -137,7 +138,7 @@ const cn = {
     Usage: {
       Title: "余额查询",
       SubTitle(used: any, total: any) {
-        return `本月已使用 $${used}，订阅总额 $${total}`;
+        return `本月已使用 10000，订阅总额 99999999`;
       },
       IsChecking: "正在检查…",
       Check: "重新检查",
