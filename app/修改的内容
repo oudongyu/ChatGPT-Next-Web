@@ -4,3 +4,5 @@
 
 修改D:\Users\Administrator\Documents\GitHub\ChatGPT-Next-Web\middleware.ts文件，将日志中输出apikey
 
+
+修改D:\Users\Administrator\Documents\GitHub\ChatGPT-Next-Web\app\api\chat-stream\route.ts，增加console.log("----------"+text);

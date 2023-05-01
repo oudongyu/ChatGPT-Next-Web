@@ -46,7 +46,7 @@ const cn = {
   Memory: {
     Title: "历史摘要",
     EmptyContent: "对话内容过短，无需总结",
-    Send: "自动压缩聊天记录并作为上下文发送",
+    Send: "自动压缩聊天记录并作为上下文",
     Copy: "复制摘要",
     Reset: "重置对话",
     ResetConfirm: "重置后将清空当前对话记录以及历史摘要，确认重置？",
